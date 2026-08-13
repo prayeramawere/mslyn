@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# BadBot
+User-agent: BadBot
+Disallow: /private
+
+# Host
+Host: https://mslyn.com
+
+# Sitemaps
+Sitemap: https://mslyn.com/sitemap.xml
