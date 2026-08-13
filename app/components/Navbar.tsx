@@ -8,9 +8,9 @@ const Navbar = () => {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link
           href={"/"}
-          className="font-mono text-xl tracking-tight  text-pink-600 text-primary"
+          className="font-mono text-sm md:text-xl tracking-tight  text-pink-600 text-primary"
         >
-          <b className="text-pink-600 text-2xl">MS</b>Lyns Kitchen
+          <b className="text-pink-600 md:text-2xl text-xl">MS</b>Lyns Kitchen
         </Link>
         <nav className="hidden gap-8 text-sm text-tint-600 md:flex">
           <Link href={"/gallery"} className="transition-colors hover:text-ink">
