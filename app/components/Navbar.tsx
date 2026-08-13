@@ -22,10 +22,12 @@ const Navbar = () => {
           </Link>
         </nav>
         <Link
-          href={"/contact"}
+          href={
+            "https://wa.me/263779179996?text=Hello%20Miss%20Lyn's%20Kitchen,%20I%20would%20like%20to%20enquire%20about%20your%20catering%20services."
+          }
           className="rounded-full bg-pink-600 px-4 py-2 text-sm text-white transition-colors hover:bg-primary-dark"
         >
-          Make an order
+          Book Catering
         </Link>
       </div>
     </header>

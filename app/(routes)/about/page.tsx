@@ -37,7 +37,11 @@ const page = () => {
               Planning an event?
             </h1>
 
-            <Link href="">
+            <Link
+              href={
+                "https://wa.me/263779179996?text=Hello%20Miss%20Lyn's%20Kitchen,%20I%20would%20like%20to%20enquire%20about%20your%20catering%20services."
+              }
+            >
               <button className="bg-pink-600 text-sm rounded-full px-6 py-4 mt-7 text-white">
                 Enquire About Catering
               </button>

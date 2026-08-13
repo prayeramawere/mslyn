@@ -10,7 +10,7 @@ const Footer = () => {
         <span>
           © {new Date().getFullYear()} Miss Lyn’s Kitchen. All rights reserved.
           | Website by{" "}
-          <Link href="" className="underline">
+          <Link href="https://ammoliteai.vercel.app/" className="underline">
             AmmoliteAI
           </Link>
         </span>

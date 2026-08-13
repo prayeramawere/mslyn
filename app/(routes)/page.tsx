@@ -11,7 +11,7 @@ export default function Home() {
   const items = [
     {
       itemNumber: "01",
-      imageUrl: "img8.jpg",
+      imageUrl: "img7.jpg",
     },
     {
       itemNumber: "02",
@@ -50,8 +50,8 @@ export default function Home() {
       <div className="grid items-center md:grid-cols-2 w-full pt-8">
         <div className="bg-black rounded-md h-[420px] mt-5 mx-2 image"></div>
 
-        <div className="md:px-25 px-10 pt-10 pb-7">
-          <span className="inline-flex items-center text-tint-600 px-4 py-2 rounded-full text-sm font-semibold border uppercase border-pink-600/75">
+        <div className="md:px-25 px-7 pt-10 pb-7">
+          <span className="inline-flex items-center text-tint-600 px-3 py-2 rounded-full text-sm font-semibold border  border-pink-600/75">
             Homemade. Authentic. Delicious.
           </span>
 
@@ -71,7 +71,11 @@ export default function Home() {
           </div>
 
           <div>
-            <Link href={""}>
+            <Link
+              href={
+                "https://wa.me/263779179996?text=Hello%20Miss%20Lyn's%20Kitchen,%20I%20would%20like%20to%20enquire%20about%20your%20catering%20services."
+              }
+            >
               <button className="bg-pink-600 text-sm rounded-full px-5 py-3 mt-7 text-white">
                 Book Catering
               </button>
@@ -108,7 +112,7 @@ export default function Home() {
             We value you
           </h1>
         </div>
-        <div className="w-[80%] md:px-15 px-3 py-3 grid md:grid-cols-3 gap-8">
+        <div className="w-[80%] md:px-15 px-3 py-3 grid md:grid-cols-3 gap-8 justify-center items-center">
           {value.map((value: ValueProps, index: number) => (
             <Value
               key={index}
@@ -125,7 +129,11 @@ export default function Home() {
           </h1>
 
           <div className="w-full flex flex-wrap justify-center items-center">
-            <Link href={""}>
+            <Link
+              href={
+                "https://wa.me/263779179996?text=Hello%20Miss%20Lyn's%20Kitchen,%20I%20would%20like%20to%20enquire%20about%20your%20catering%20services."
+              }
+            >
               <button className="bg-pink-600 text-sm rounded-full px-6 py-4 mt-7 text-white">
                 Enquire About Catering
               </button>

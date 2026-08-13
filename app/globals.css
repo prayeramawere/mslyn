@@ -15,7 +15,9 @@
 
 }
 .image{
-  background-image: url("/img7.jpg");
+  background-image: url("/img8.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 
