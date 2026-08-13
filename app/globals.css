@@ -1,26 +1,53 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme{
+    --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --color-ink: #051014;
+  --color-surface: #ffffff;
+  --color-primary: #022b3a;
+  --color-primary-dark: #051f2b;
+
+  /* Tints/shades of primary, used for backgrounds, borders, muted text */
+  --color-tint-50: #eef4f5;
+  --color-tint-200: #c9d8db;
+  --color-tint-600: #3e5c68;
+
+}
+.image{
+  background-image: url("/img7.jpg");
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.item2{
+  background-image: url("/img10.jpg");
+
+}
+.item3{
+  background-image: url("/img12.jpg");
+}
+.item4{
+  background-image: url("/img11.jpg");
+}
+.item5{
+  background-image: url("/img1.jpg");
+}
+.item6{
+  background-image: url("/img2.jpg");
+}
+.item7{
+  background-image: url("/img3.jpg");
+}
+.item8{
+  background-image: url("/img4.jpg");
+}
+.item9{
+  background-image: url("/img8.jpg");
+}
+.item10{
+  background-image: url("/img9.jpg");
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
